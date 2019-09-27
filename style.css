@@ -1,0 +1,33 @@
+h1 {
+  color: purple;
+}
+
+.aboutbackground {
+  background-color: purple;
+  color: white;
+}
+
+img {
+  width: 50%;
+}
+
+.socialbackground {
+  background-color: yellow;
+}
+
+.contactbackground {
+  background-color: silver;
+}
+
+.contactbox {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: purple;
+  color: yellow;
+  margin: 10px;
+}
+
+.aboutLink {
+  color: white;
+}
