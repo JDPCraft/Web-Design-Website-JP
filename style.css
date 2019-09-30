@@ -35,3 +35,13 @@ img {
 .aboutLink {
   color: white;
 }
+
+.font {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.border {
+  border-style: solid;
+  border-color: black;
+  border-width: 4px, 4px. 4px, 4px;
+}
