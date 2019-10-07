@@ -45,3 +45,8 @@ img {
   border-color: black;
   border-width: 4px, 4px. 4px, 4px;
 }
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
