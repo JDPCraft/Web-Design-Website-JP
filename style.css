@@ -2,6 +2,8 @@ root {}
 
 h1 {
   color: purple;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutbackground {
@@ -11,10 +13,13 @@ h1 {
 
 .abouth1 {
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 img {
   width: 50%;
+  margin: 0px 25% 0px 25%;
 }
 
 .socialbackground {
@@ -23,15 +28,6 @@ img {
 
 .contactbackground {
   background-color: silver;
-}
-
-.contactbox {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  background-color: purple;
-  color: yellow;
-  margin: 30px;
 }
 
 .aboutLink {
@@ -54,4 +50,37 @@ img {
   justify-content: space-around;
   list-style-type: none;
   align-items: center;
+}
+
+.inBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hLink {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.hLinkBorder {
+  border-style: none;
+  border-width: 1px;
+  margin: 10px;
+}
+
+.awayBorder {
+  border-style: none;
+  border-width: 1px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.contactbox {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: purple;
+  color: yellow;
+  margin: 20px;
 }
