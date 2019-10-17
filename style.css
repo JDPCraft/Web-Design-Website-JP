@@ -41,7 +41,7 @@ img {
 .border {
   border-style: solid;
   border-color: black;
-  border-width: 4px, 4px. 4px, 4px;
+  border-width: 4px;
 }
 
 .top-nav {
@@ -50,6 +50,9 @@ img {
   justify-content: space-around;
   list-style-type: none;
   align-items: center;
+  border-style: dashed;
+  border-color: black;
+  border-width: 4px;
 }
 
 .inBox {
@@ -69,18 +72,25 @@ img {
   margin: 10px;
 }
 
-.awayBorder {
+.awayFromLeftEdgeBorder {
   border-style: none;
   border-width: 1px;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .contactbox {
+  padding: 5px;
   border-style: solid;
   border-color: black;
   border-width: 1px;
   background-color: purple;
   color: yellow;
   margin: 20px;
+}
+
+.awayFromBottomNav {
+  border-style: dashed;
+  border-color: black;
+  border-width: 4px;
 }
