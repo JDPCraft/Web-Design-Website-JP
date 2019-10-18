@@ -1,4 +1,10 @@
-root {}
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Mansalva|Turret+Road&display=swap');
+
+root {
+  --navFont: 'Mansalva', cursive;
+  --headFont: 'Turret Road', cursive;
+  --paraFont: 'Big Shoulders Text', cursive;
+}
 
 h1 {
   color: purple;
@@ -93,4 +99,16 @@ img {
   border-style: dashed;
   border-color: black;
   border-width: 4px;
+}
+
+p {
+  font-family: var(--paraFont);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headFont);
+}
+
+a {
+  font-family: var(--navFont);
 }
