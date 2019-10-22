@@ -113,3 +113,32 @@ h1, h2, h3, h4, h5, h6 {
 a {
   font-family: var(--navFont);
 }
+
+i {
+  font-size: 2em;
+}
+
+.fa-youtube-square {
+  color: white;
+  background-color: red;
+}
+
+.fa-discord {
+  color: blue;
+  background-color: white;
+}
+
+.fa-facebook-square {
+  color: blue;
+  background-color: white;
+}
+
+.fa-twitch {
+  color: purple;
+  background-color: white;
+}
+
+.fa-steam-square {
+  color: darkblue;
+  background-color: white;
+}
