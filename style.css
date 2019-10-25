@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Mansalva|Turret+Road&display=swap');
 
 :root {
-  --navFont: 'Mansalva', cursive;
+  --navFont: Mansalva, cursive;
   --headFont: 'Turret Road', cursive;
   --paraFont: 'Big Shoulders Text', cursive;
 }
