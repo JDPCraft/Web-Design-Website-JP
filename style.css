@@ -47,12 +47,6 @@ i {
   color: white;
 }
 
-.abouth1 {
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
 .socialbackground {
   background-color: yellow;
 }
@@ -69,10 +63,19 @@ i {
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Start of borders that don't use flexbox */
 .border {
   border-style: solid;
   border-color: black;
   border-width: 4px;
+}
+
+/* End of borders that don't use flexbox */
+/* Start of css flexbox */
+.abouth1 {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .top-nav {
