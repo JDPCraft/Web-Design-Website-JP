@@ -1,3 +1,5 @@
+/* Start of CSS code */
+/* Start of font declarations */
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Mansalva|Turret+Road&display=swap');
 
 :root {
@@ -6,12 +8,40 @@
   --paraFont: 'Big Shoulders Text', cursive;
 }
 
+/* End of font declarations */
+/* Start of css targeting specific tags in the HTML */
 h1 {
   color: purple;
   display: flex;
   justify-content: center;
 }
 
+img {
+  width: 50%;
+  margin: 0px 25% 0px 25%;
+}
+
+/* Start of font declarations being applied */
+p {
+  font-family: var(--paraFont);
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headFont);
+}
+
+a {
+  font-family: var(--navFont);
+}
+
+/* End of font declarations being applied */
+i {
+  font-size: 2em;
+}
+
+/* End of css targeting specific tags in the HTML */
+/* Start of css classes that are used inside of the HTML code */
 .aboutbackground {
   background-color: purple;
   color: white;
@@ -21,11 +51,6 @@ h1 {
   color: white;
   display: flex;
   justify-content: center;
-}
-
-img {
-  width: 50%;
-  margin: 0px 25% 0px 25%;
 }
 
 .socialbackground {
@@ -101,23 +126,7 @@ img {
   border-width: 4px;
 }
 
-p {
-  font-family: var(--paraFont);
-  font-size: 20px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--headFont);
-}
-
-a {
-  font-family: var(--navFont);
-}
-
-i {
-  font-size: 2em;
-}
-
+/* Start of Font Awesome logos. */
 .fa-youtube-square {
   color: white;
   background-color: red;
@@ -142,3 +151,7 @@ i {
   color: darkblue;
   background-color: white;
 }
+
+/* End of Font Awesome logos */
+/* End of css classes that are used inside of the HTML code */
+/* End of CSS code */
