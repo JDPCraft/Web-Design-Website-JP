@@ -159,5 +159,46 @@ i {
 }
 
 /* End of Font Awesome logos */
+/* Start of css grid */
+.indexGrid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr
+    /*100px*/
+  ;
+  grid-template-areas:
+    "header header header"
+    "about social contact"
+    /* "footer footer footer" */
+  ;
+}
+
+.indHead {
+  grid-area: header;
+  text-align: center;
+}
+
+.indAbout {
+  grid-area: about;
+  background: purple;
+  color: white;
+}
+
+.indSocial {
+  grid-area: social;
+  background: yellow;
+}
+
+.indContact {
+  grid-area: contact;
+  background: silver;
+}
+
+/* .indFooter {
+  grid-area: footer;
+} */
+/* end of css grid */
 /* End of css classes that are used inside of the HTML code */
 /* End of CSS code */
