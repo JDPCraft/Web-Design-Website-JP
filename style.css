@@ -165,9 +165,8 @@ i {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr
-    /*100px*/
-  ;
+  grid-template-rows: 30% 70%;
+  /*100px*/
   grid-template-areas:
     "header header header"
     "about social contact"
@@ -194,6 +193,24 @@ i {
 .indContact {
   grid-area: contact;
   background: silver;
+}
+
+.aboutGrid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+
+.socialGrid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+
+.contactGrid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
 }
 
 /* .indFooter {
