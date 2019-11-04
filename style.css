@@ -199,18 +199,56 @@ i {
   width: 100vw;
   height: 100vh;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30% 70%;
+  grid-template-areas:
+    "header header header"
+    ""
+  ;
+}
+
+.aboutBody {
+  grid-area: bodyAbout1;
+}
+
+.aboutLikes {
+  grid-area: bodyAbout2;
+}
+
+.aboutHobbys {
+  grid-area: bodyAbout3;
 }
 
 .socialGrid {
   width: 100vw;
   height: 100vh;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30% 70%;
+  grid-template-areas:
+    "header header header"
+    "bodySoci bodySoci bodySoci"
+  ;
+}
+
+.sociBody {
+  grid-area: bodySoci;
 }
 
 .contactGrid {
   width: 100vw;
   height: 100vh;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30% 70%;
+  grid-template-areas:
+    "header header header"
+    "bodyCont bodyCont bodyCont"
+  ;
+}
+
+.contBody {
+  grid-area: bodyCont;
 }
 
 /* .indFooter {
