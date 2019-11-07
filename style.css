@@ -197,13 +197,15 @@ i {
 
 .aboutGrid {
   width: 100vw;
-  height: 100vh;
+  height: 145vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 10vh 85vh 25vh 25vh;
   grid-template-areas:
     "header header header"
-    "bodyAbout1 bodyAbout2 bodyAbout3"
+    "bodyAbout1 bodyAbout1 bodyAbout1"
+    "bodyAbout2 bodyAbout2 bodyAbout2"
+    "bodyAbout3 bodyAbout3 bodyAbout3"
   ;
 }
 
