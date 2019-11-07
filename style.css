@@ -23,6 +23,7 @@ h1 {
   color: purple;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 img {
@@ -216,6 +217,10 @@ i {
 
 .aboutGrid>* {
   margin: 0 20px 0 5px;
+}
+
+.aboutGrid>h1 {
+  margin-top: 10px;
 }
 
 .aboutBody {
