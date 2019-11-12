@@ -172,12 +172,9 @@ i {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 30% 70%;
-  /*100px*/
   grid-template-areas:
     "header header header"
-    "about social contact"
-    /* "footer footer footer" */
-  ;
+    "about social contact";
 }
 
 .indHead {
@@ -240,7 +237,7 @@ i {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 20% 80%;
   grid-template-areas:
     "header header header"
     "bodySoci bodySoci bodySoci"
@@ -251,12 +248,20 @@ i {
   grid-area: bodySoci;
 }
 
+.socialGrid>* {
+  margin: 0 20px 0 5px;
+}
+
+.socialGrid>h1 {
+  margin-top: 10px;
+}
+
 .contactGrid {
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 20% 80%;
   grid-template-areas:
     "header header header"
     "bodyCont bodyCont bodyCont"
@@ -267,9 +272,14 @@ i {
   grid-area: bodyCont;
 }
 
-/* .indFooter {
-  grid-area: footer;
-} */
+.contactGrid>* {
+  margin: 0 20px 0 5px;
+}
+
+.contactGrid>h1 {
+  margin-top: 10px;
+}
+
 /* end of css grid */
 /* End of css classes that are used inside of the HTML code */
 /* End of CSS code */
