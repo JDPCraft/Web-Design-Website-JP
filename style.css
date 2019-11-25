@@ -281,5 +281,22 @@ i {
 }
 
 /* end of css grid */
+/* start of media queries */
+/* put the media queries here */
+@media only screen and (max-width: 800px) {
+  .socialGrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+      "header header"
+      "bodySoci bodySoci"
+    ;
+  }
+}
+
+/* end of media queries */
 /* End of css classes that are used inside of the HTML code */
 /* End of CSS code */
