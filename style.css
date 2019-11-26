@@ -295,6 +295,32 @@ i {
       "bodySoci bodySoci"
     ;
   }
+
+  .contactGrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+      "header header"
+      "bodyCont bodyCont"
+    ;
+  }
+
+  .aboutGrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "bodyAbout1 bodyAbout1"
+      "bodyAbout2 bodyAbout2"
+      "bodyAbout3 bodyAbout3"
+    ;
+  }
 }
 
 /* end of media queries */
