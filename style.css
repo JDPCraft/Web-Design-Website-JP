@@ -282,8 +282,8 @@ i {
 
 /* end of css grid */
 /* start of media queries */
-/* put the media queries here */
-@media only screen and (max-width: 800px) {
+/* start of cell-phone media query */
+@media only screen and (max-width: 500px) {
   .socialGrid {
     width: 100vw;
     height: 100vh;
@@ -323,6 +323,49 @@ i {
   }
 }
 
+/* end of cell-phone media query */
+/* start of tablet media query */
+@media only screen and (max-width: 1000px) {
+  .socialGrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+      "header header"
+      "bodySoci bodySoci"
+    ;
+  }
+
+  .contactGrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+      "header header"
+      "bodyCont bodyCont"
+    ;
+  }
+
+  .aboutGrid {
+    width: 100vw;
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "bodyAbout1 bodyAbout1"
+      "bodyAbout2 bodyAbout2"
+      "bodyAbout3 bodyAbout3"
+    ;
+  }
+}
+
+/* end of tablet media query */
 /* end of media queries */
 /* End of css classes that are used inside of the HTML code */
 /* End of CSS code */
