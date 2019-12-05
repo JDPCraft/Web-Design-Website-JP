@@ -69,6 +69,11 @@ i {
   color: white;
 }
 
+.centerAlign {
+  display: flex;
+  justify-content: center;
+}
+
 /* Start of borders that don't use flexbox */
 .border {
   border-style: solid;
